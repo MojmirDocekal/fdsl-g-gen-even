@@ -1,0 +1,35 @@
+
+\tiny
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Fixed effects}\OperatorTok{:}
+\StringTok{                 }\NormalTok{Estimate Std. Error       df t value }\KeywordTok{Pr}\NormalTok{(}\OperatorTok{>}\ErrorTok{|}\NormalTok{t}\OperatorTok{|}\NormalTok{)    }
+\NormalTok{(Intercept)        }\FloatTok{2.2084}     \FloatTok{0.1275}  \FloatTok{96.5876}  \FloatTok{17.326}  \OperatorTok{<}\StringTok{ }\FloatTok{2e-16} \OperatorTok{**}\ErrorTok{*}
+\NormalTok{ConditionCondPos  }\FloatTok{-0.5888}     \FloatTok{0.1377} \FloatTok{532.7231}  \FloatTok{-4.275} \FloatTok{2.26e-05} \OperatorTok{**}\ErrorTok{*}
+\NormalTok{ConditionNeg       }\FloatTok{1.2854}     \FloatTok{0.1367} \FloatTok{541.2981}   \FloatTok{9.404}  \OperatorTok{<}\StringTok{ }\FloatTok{2e-16} \OperatorTok{**}\ErrorTok{*}
+\OperatorTok{---}
+\NormalTok{Signif. codes}\OperatorTok{:}\StringTok{  }\DecValTok{0}\NormalTok{ ‘}\OperatorTok{**}\ErrorTok{*}\NormalTok{’ }\FloatTok{0.001}\NormalTok{ ‘}\OperatorTok{**}\NormalTok{’ }\FloatTok{0.01}\NormalTok{ ‘}\OperatorTok{*}\NormalTok{’ }\FloatTok{0.05}\NormalTok{ ‘.’ }\FloatTok{0.1}\NormalTok{ ‘ ’ }\DecValTok{1}
+
+\NormalTok{Correlation of Fixed Effects}\OperatorTok{:}
+\StringTok{            }\NormalTok{(Intr) CndtCP}
+\NormalTok{CondtnCndPs }\FloatTok{-0.536}
+\NormalTok{ConditionNg }\FloatTok{-0.536}  \FloatTok{0.499}
+\OperatorTok{>}\StringTok{ }
+\end{Highlighting}
+\end{Shaded}
+
+\normalsize
+
+\begin{itemize}
+\tightlist
+\item
+  reference level: \textbf{Neg-Top}, the other two conditions are
+  significantly different
+\item
+  again \emph{ani} prefers to associate with weak elements (Neg
+  \textgreater{} Neg-Top)
+\item
+  Strawson-DE is not enough to license it (CondPos)
+\end{itemize}
+

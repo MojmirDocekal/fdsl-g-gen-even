@@ -1,0 +1,967 @@
+---
+title: "Positive and negative Czech *even*: experimental evidence"
+subtitle: "14-11-2018, UCL London"
+author: "Mojmír Dočekal"
+output: 
+  beamer_presentation: 
+    keep_tex: yes
+    slide_level: 2
+header-includes:
+  - \usetheme[faculty=phil]{fibeamer}
+  - \usepackage{linguex}
+  - \usepackage{stmaryrd}
+  - \usepackage{qtree}
+  - \newcommand{\cond}[1]{\textbf{#1}}
+  - \usepackage{capt-of}
+bibliography: bibliography.bib
+csl: natural-language-semantics.csl
+nocite: | 
+  @safratova2018thesis | @rullmann1997even | @heim1984note | @szabolcsi2004positive
+---
+
+# Two Czech *even*s
+
+## Basic facts
+
+- slides link: [https://bit.ly/2zS0dxn](https://bit.ly/2zS0dxn)
+- Czech: two lexical items corresponding to English *even* (similarly in Greek, Dutch, German, Finnish and Swedish)
+- ambiguous sentence (Rullmann 1997: ex.(26)) like \Next disambiguated in Czech
+
+\ex. They hired every linguist who had even read SYNTACTIC STRUCTURES.
+
+---
+
+positive Czech *even*: *i*
+
+\exg. Přijali každého lingvistu, který si přečetl **i** SYNTAKTICKÉ STRUKTURY.  
+  hired.3PL every linguist who SE read even SYNTACTIC STRUCTURES  
+  'They hired every linguist who had even read SS.'  
+
+negative Czech *even*: *ani*
+
+\exg. Přijali každého lingvistu, který si nepřečetl **ani** SYNTAKTICKÉ STRUKTURY.  
+  hired.3PL every linguist who SE neg-read neg-even SYNTACTIC STRUCTURES  
+  'They hired every linguist who had even read SS.'  
+
+---
+
+- historically related: *ani* is composed of *i* plus negation
+- *ani* usually requires clause-mate negation
+
+---
+
+## Outline
+
+1) preliminary description of *i* and *ani*
+2) default theory of *even* (assumed)
+3) the experiment (2 parts)
+4) theoretical interpretation: scope theory of *even* + embedded exhaustification
+5) questions and future plans
+
+---
+
+## Positive *even*: *i*
+
+1) focus particle with:
+  - scalar (least-likely) presupposition: \Next[a]
+  - additive presupposition: \Next[b]
+
+\exg. Petr přečetl i třetí díl Pána-prstenů.  
+  Petr read even third volume LOTR.GEN  
+  'Petr read even the third volume of LOTR.'
+\a. scalarity: ?? Petr read **i** first volume LOTR
+\b. additivity: ?? Petr read **i** third volume LOTR but not the first two
+
+---
+
+2) obligatory distributive conjunction (boolean $\wedge$)
+
+\exg. V Praze se sešli anarchisti i skinheadi.  
+  in Prague SE gathered anarchists i skinheads  
+  'Anarchists gathered in Prague $\wedge$ skinheads gathered in Prague.'
+\a. $\#Gathered(Anarchists\sqcup Skinheads)$
+
+---
+
+3) additive particle (without scalar presupp.)
+
+\exg. Na náměstí přišli anarchisti. A pak přišli i skinheadi.  
+  to square arrived anarchists and then arrived i skinheads  
+  'Anarchists arrived to the square and then skinheads arrived too.'
+
+\ex. ??The square was empty and then arrived i skinheads.
+
+---
+
+Czech National Corpus (CNK) survey (Šafratová 2018)
+
+1) scalar *i* (47%)
+
+2) additive *i* (41%)
+
+3) conjunction *i* (12%)
+
+---
+
+## *ani*
+
+1) focus particle:
+  - scalar presupposition (most likely)
+  - additive (negated) presupposition
+
+\exg. Petr si nepřečetl ani první/??třetí díl PP.  
+  Petr SE neg-read neg-even first/??third volume LOTR.GEN  
+  'Petr didn't read even the first/third volume of LOTR.'
+
+---
+
+negated additivity:
+
+\ex. ?? Petr neg-read neg-even first volume LOTR but second and third yes. 
+
+- usually requires clause-mate negation but is licensed in semantics (experimental evidence below)
+
+---
+
+2) conjunction requiring negation but scoping over it
+
+\exg. Petr nejedl ani nepil.  
+  Petr neg-ate neg-even neg-drank  
+  'Petr didn't eat neither did he drink.'  
+  $\neg p \wedge \neg q/\# \neg(p \wedge q)$
+
+3) additive (negative) particle
+
+\ex. Petr neg-ate. And ani neg-drank.
+
+---
+
+CNK (Šafratová 2018):
+
+1) scalar *ani* (60%)
+
+2) additive *ani* (30%)
+
+3) conjunction *ani* (10%)
+
+---
+
+## Theories
+
+- specific for *even*:
+
+1) movement/scope theory: @KarttunenPeters:1979, @lahiri1998focus, @crnivc2012focus
+  - *even* ... scalar (least likely) presupposition
+  - *even* ... covertly moves (English ambiguity)
+  - additive presupposition (less studied and understood) depending on scope
+
+---
+
+2) lexical/ambiguity theory: @Rooth:1985, @rullmann1997even, @giannakidou2007landscape
+  a) positive *even* (least likely presupp.)
+  b) negative *even* (most likely presupp.) ... NPI
+  c) different additive presuppositions
+  - languages like Czech usually used as an argument for the ambiguity approach
+
+---
+
+- our (=joint work with Iveta Šafratová and Jakub Dotlačil) approach:
+- examine *even* theories + more general theories like @krifka1995semantics, @heim1984note and @crnic2011getting
+- both for NPIs and scalar particles
+- first gather experimental data and compare the theories
+- so far more evidence for the scope/Krifka's style of approach
+
+---
+
+
+
+## Unified theory of (N/P)PI and scalar particles
+
+@krifka1995semantics:
+
+- emphatic (strong) NPIs and PPIs are subject to the same probability-based presupposition (Emph.Assert)
+- pre-experimental assumptions: 
+  - *i* = Krifka's *TONS of money* (PPI)
+  - *ani* = Krifka's *ANY* (strong NPI)
+
+\ex. \a. \* Mary read ANY book.
+\b. Mary didn't read ANY book.
+
+\ex. \a. \* Mary doesn't have TONS of money.
+\b. Mary has TONS of money.
+
+---
+
+Krifka's spirit but Heim/Crnič formalization (Heim (1984), @crnic2011getting, @crnivc2014against)
+
+- Polarity Items (PI) are alternative-introducing
+- alternatives are integrated into truth-conditions via covert *even* ($\approx$ Krifka's Emph.Assert)
+- *even* is vacuous in truth-conditions
+- but triggers a scalar presupposition: @crnivc2014against[, ex.(4)]
+
+\ex. even(C)(p,w) is defined only if $\forall q \in C: p \neq q \rightarrow p <_c q$. If defined, even(C)(p,w)=p(w).
+
+---
+
+## Strong NPIs
+
+\ex. \a. \* Mary read ANY book.
+\b. even(C)(Mary read any book) is defined only if for all relevant *n* > 1: Mary read one book $<_c$ Mary read *n* books. \hfill (inconsistent)
+
+- ranking of likelihood respects entailment: p $\rightarrow$ q \ldots q $\not<_c$ p
+- $\llbracket read\ 2\ books\rrbracket \rightarrow \llbracket read\ 1\ book\rrbracket$ ... $\llbracket read\ 1\ book\rrbracket \not<_c \llbracket read\ 2\ books\rrbracket$
+
+
+---
+
+- scope theory of *even*: scopes over negation
+- prediction: weak elements (WE) become grammatical if a scale reversing operator intervenes between *even* and the WE
+
+\ex. \a. Mary didn't read ANY book.
+\b. even(C)(Mary didn't read any book) is defined only if for all relevant *n* > 1: Mary didn't read one book $<_c$ Mary didn't read *n* books. \hfill (consistent)
+
+- prejacent entails all the alternatives $\rightarrow$ is less likely than the alternatives
+
+## PPI
+
+- assumption: monotonicity of degrees
+
+\ex. \a. Mary has TONS of money.
+\b. even(C)(Mary has tons of money) is defined only if for all relevant *n* < *tons of money*: Mary has tons of money $<_c$ Mary has *n*-money. \hfill (consistent)
+
+\ex. \a. \# Mary doesn't have TONS of money.
+\b. even(C)(Mary doesn't have tons of money) is defined only if for all relevant *n* < *tons of money*: Mary doesn't have tons of money $<_c$ Mary doesn't have *n*-money. \hfill (inconsistent)
+
+## Scalar particles
+
+- applies to scalar particles as well
+
+\ex. \a. \* Mary read even ONE book.
+\b. Mary didn't read even ONE book.
+
+- the same explanation as for *ANY* (NPI)
+- attractive for Czech data (strong NPI built on top of PPI):
+
+\ex. \a. *i* 'positive even' \ldots strong even (scalar particle/PPI)
+\b. *an-i* 'not even' \ldots weak *even* (strong NPI)
+
+## General overview
+
+
+- Krifka (1995): association with Emph.Assert (speech act operator) $\rightarrow$ expected PPI (wide scope) properties
+   - stipulated in other frameworks (?)
+- predictions for: polarity items, scalar particles 
+- PPI: top/extreme value on scale
+- very different from the usual PPI approaches (Szabolcsi 2004, a.o.) focusing on *some*, ...
+
+\ex. maximal amounts + alternatives $\leftrightarrow$ PPI behaviour
+
+- what we tested in experiments
+
+---
+
+English *even*'s PPI behaviour observed:
+
+- @rullmann1997even: \Next is interpreted only as \Next[b]  
+- "weak element" reading
+
+\ex. They hired no linguist who had even read [$_F$ Syntactic Structures].
+\a. They hired no linguist who had even read [$_F$ Syntactic Structures]. \hfill SS very unlikely reading
+\b. They hired even [no linguist who had read [$_F$ Syntactic Structures]].\hfill SS very likely reading
+
+- similar observation for superlative-modified numerals: @mihoc2017testing, @cohen2014superlative 
+
+---
+
+Strong NPIs:
+
+- reversed predictions: covert *even* scoping over intervening $\neg$
+- $\rightarrow$ association only with weak elements (bottom of the scale)
+- English *even ONE*, czech *ani*
+
+---
+
+# Experiment
+
+## Positive *even* in Czech
+
+- joint work with Jakub Dotlačil and Iveta Šafratová
+- truth value judgment task: 5-point Likert scale: 1-worst, 5-best
+- 50 items in 2 parts: 18 items in part 1, 32 in part 2 
+- Latin-square design, IBEX farm
+- selected condition from the first part of the experiment (only positive *even*):
+
+---
+
+\ex. Brown rice can preserve essential vitamins but it has to be stored in the fridge, packed in hermetical dose and you have to consume it up to three days after cooking.\label{ex-1}
+\a.  Rýže  v ledničce vydrží \textbf{i} tři dny. \label{ex-1-a}\newline
+'The rice in the fridge lasts even three days.'\hfill (\cond{top})
+\b. Rýže  v ledničce vydrží \textbf{i} dva dny.\label{ex-1-b}\newline
+'The rice in the fridge lasts even two days.'\hfill (\cond{mid})
+\c. Rýže  v ledničce vydrží \textbf{i} jeden den.\hfill (\cond{low})\label{ex-1-c}\newline
+'The rice in the fridge lasts even one day.'
+
+---
+
+- three conditions: **top**, **mid**, **low**
+- ad hoc scales:
+
+\ex. x lasts 3 days $\rightarrow$ x lasts 2 days $\rightarrow$ x lasts 1 day
+
+- other types of logical and contextual scales
+- logical: buy 1 kg of sugar, buy 2 kg of sugar, buy 3 kg of sugar
+- contextual: easy language to learn, medium, hard, \ldots
+
+## Second part of the PPI-experiment
+
+- 32 items in 5 conditions
+- again scales (logical and contextual)
+- subset of the conditions (3 of 5)
+
+---
+
+\ex.  Mother would be happy if her son would work for the police. The lowest rank is a sergeant, the highest is a general and somewhere in the middle is a colonel.\label{ex-2}
+\a. Syn nakonec vystudoval biochemii a nestal se \textbf{i} generálmajorem.\hfill (\cond{neg-i})\label{ex-2-d}\newline
+'Son at the end studied biochemistry and didn't become even general.'
+\b. Jestli se syn stane \textbf{i} generálmajorem, matka bude šťastná. \hfill (\cond{ant-i})\label{ex-2-e}\newline
+'If son will become even general, his mother will be happy.'
+\c. Jestli se syn stane \textbf{i} rotným, matka bude šťastná. \newline
+'If son will become even even sergeant, his mother will be happy.'\hfill (\cond{ant-i-bot})
+
+---
+
+## Descriptive statistics
+
+\tiny 
+```{r  eval=FALSE}
+> ddply(data_ppi, .(Condition), summarise, Means = mean(Answer, na.rm=TRUE))
+  Condition    Means
+1  Cond-Bot 2.994898
+2  Cond-Top 3.663265
+3       Low 2.326531
+4       Mid 3.340136
+5       Neg 1.780612
+6       Top 4.040816
+> ddply(data_ppi, .(Condition), summarise, Medians = median(Answer,na.rm=TRUE))
+  Condition Medians
+1  Cond-Bot       3
+2  Cond-Top       4
+3       Low       2
+4       Mid       4
+5       Neg       1
+6       Top       5
+> 
+```
+
+---
+
+\begin{center}
+\includegraphics[scale=0.23]{exp1-part_1-errorbars.pdf}
+\captionof{figure}{Error-bars, Experiment 1, part 1}
+\end{center}
+
+## Linear mixed model for part 1{.allowframebreaks}
+
+- package *lmerTest* (*p* value info)
+
+
+
+\tiny
+
+```{r  eval=FALSE}
+> m1 <- lmer(as.numeric(Answer) ~ Condition + (1|Subj) + (1|Item), data=data_ppi_1)
+> summary(m1)
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: as.numeric(Answer) ~ Condition + (1 | Subj) + (1 | Item)
+   Data: data_ppi_1
+
+REML criterion at convergence: 1470.5
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.1454 -0.7445  0.1116  0.7417  2.2667 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Subj     (Intercept) 0.1307   0.3615  
+ Item     (Intercept) 0.2161   0.4649  
+ Residual             1.4656   1.2106  
+Number of obs: 441, groups:  Subj, 49; Item, 9
+```
+---
+
+\tiny
+
+```{r  eval=FALSE}
+Fixed effects:
+             Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)    3.3500     0.1915  14.2807  17.491 4.80e-11 ***
+Conditionlow  -1.0257     0.1415 382.4998  -7.246 2.38e-12 ***
+Conditiontop   0.6831     0.1415 382.4998   4.826 2.02e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Cndtnl
+Conditionlw -0.370       
+Conditiontp -0.370  0.500
+> 
+```
+
+\normalsize
+
+- reference level condition: \cond{mid} (releveled) -- all fixed effects significant
+- high preference for strong expressions associating with *i*
+- middle: shrinking of the domain?
+
+---
+
+## Part 2
+
+\begin{center}
+\includegraphics[scale=0.23]{exp1-part_2-errorbars.pdf}
+\captionof{figure}{Error-bars, Experiment 1, part 2}
+\end{center}
+
+---
+
+## Linear model for part 2{.allowframebreaks}
+
+\tiny
+
+```{r  eval=FALSE}
+> m1 <- lmer(as.numeric(Answer) ~ Condition + (1|Subj) + (1|Item), data=data_ppi_2)
+> summary(m1)
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: as.numeric(Answer) ~ Condition + (1 | Subj) + (1 | Item)
+   Data: data_ppi_2
+
+REML criterion at convergence: 1982.9
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.2804 -0.6559 -0.0431  0.7140  3.4371 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Subj     (Intercept) 0.22450  0.4738  
+ Item     (Intercept) 0.07654  0.2767  
+ Residual             1.50289  1.2259  
+Number of obs: 588, groups:  Subj, 49; Item, 32
+
+```
+
+---
+
+\tiny
+
+```{r  eval=FALSE}
+Fixed effects:
+                  Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)         3.0210     0.1234 112.5777  24.490  < 2e-16 ***
+ConditionCond-Top   0.5883     0.1293 515.7070   4.551 6.66e-06 ***
+ConditionNeg       -1.2590     0.1285 531.0764  -9.801  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) CndC-T
+CndtnCnd-Tp -0.521       
+ConditionNg -0.520  0.499
+> 
+```
+
+\normalsize
+
+- reference level: \cond{Cond-Bot}, the other two conditions are significantly different
+- again *i* prefers to associate with strong elements but not so uncontroversially as in simple sentences
+
+---
+
+- surprising: Strawson-Downdward-Entailment (SDE)
+<!--
+(correlates with \cond{low} condition worst acceptability in part 1):
+-->
+
+\ex. Even if John read ONE book, he will pass the exam.
+\a. even(C)(if John read one book ...) is defined only if for all relevant *n* > 1: if John read one book ... $<_c$ if John read *n* books \hfill (consistent)
+
+- expected ungrammaticality (plus change of the predicate!) but reported as acceptable: @crnivc2012focus
+
+\ex. Even if John read ALL books, he will fail the exam.
+\a. even(C)(if John read all books ...) is defined only if for all relevant *n* < *all*: if John read all book ... $<_c$ if John read *n* books \hfill (inconsistent)
+
+
+---
+
+## All conditions together
+
+
+\begin{center}
+\includegraphics[scale=0.23]{exp1-part_1-2-errorbars.pdf}
+\captionof{figure}{Error-bars, Experiment 1, all conditions}
+\end{center}
+
+---
+
+## Summary
+
+
+- *i* associates with strong elements even in the antecedent of conditional
+- *i* can associate with weak elements in conditionals (less acceptable)
+- *i* in negated sentences is ungrammatical
+
+---
+
+## Summary
+
+- reference level + ungrammatical
+
+\ex. \a. $\checkmark$ [... *i* + TOP ...] \hfill Top
+\b. \* $\neg$[... *i* ...] \hfill Neg
+
+- decreasing acceptability:
+
+\ex. \a. if [... *i* + TOP ...] \hfill Cond-Top
+\b. [... *i* + MIDDLE ...] \hfill Mid
+\c. [... *i* + BOTTOM ...] \hfill Cond-Bot
+\d. [... *i* + LOW ...] \hfill Low
+
+---
+
+## Interpretation
+
+- *i*: Czech positive *even* with the un-likelihood presupposition
+- explains: high acceptability of Top, low acceptability of Low
+- ungrammaticality with Neg (different source: concurrence)
+- PPI hypothesis predicts unobserved preference of the Cond-Bot over Cond-Bot
+
+---
+
+- explanation (after @crnivc2012focus): expected *even*-association with weak elements \Next (in DE contexts 1 $\rightarrow$ 2, ...)
+- but unexpected *even*-association with strong elements \NNext:
+- problem: truth of *if John $\exists$ he ...* $\rightarrow$ *If John $\forall$ he ...*
+- $\forall$ cannot be less likely than $\exists$
+
+\ex. Even if John read ONE book, he will pass the exam.
+\a. even(C)(if John read one book ...) is defined only if for all relevant *n* > 1: if John read one book ... $<_c$ if John read *n*-books \hfill (trivial)
+
+\ex. Even if John read ALL of the books, he will fail the exam.
+\a.even(C)(if John read all books ...) is defined only if  John read all books ... $<_c$ if John read some books ... \hfill (inconsistent)
+
+---
+
+Crnič's solution:
+
+- exhaustification
+- the alternatives are then \Next[a], not \Next[b]
+
+\ex. [even C$_2$] [if [exh C$_0$] [John read all$_F$ of the books] he will fail the exam]
+\a. {that if John read all of the books he will FTE, that if John
+read some but not all of the books he will FTE}
+\b. {that if John read all of the books he will FTE, that if John
+read some of the books he will FTE}
+
+\ex. exh(C)(p,w) = 1 iff p(w)=1 and $\forall q\in C[p \not\subseteq q \rightarrow q(w) = 0]$\newline
+all the alternatives not entailed by the prejacent are false
+
+---
+
+- applied to the experiment
+- logically (and not even contextually) un-ordered/independent
+- likelihood of logically independent alternatives un-constrained
+- plausible context: correlation of son's achieved rank with his mother happiness 
+
+\ex. [even C$_2$] [if [exh C$_0$] [son becomes general$_F$] mother will be happy]
+\a. {that if son becomes general mother will be happy, that if son becomes mayor and not general mother will be happy, that if son becomes sergeant and not general mother will be happy}
+
+---
+
+Conclusion
+
+- *i* can have wide scope (PPI) and associate with strong elements
+- PPI properties masked by the exhaustification
+
+\ex. Prediction: the environments where the exhaustification is blocked or weakened shouldn't allow association of *even* with strong elements.
+
+@crnivc2012focus (exhaustified \Next[a] *read some but not all* would be non-contradictory):
+
+\ex. \a. ?I doubt that John read some of the books but I also doubt that he read all of the books.
+\b. ?I even doubt that John read ALL of the books.
+
+---
+
+- contrast this with obligatory exhaustification (*read some but not all*):
+
+\ex. The students who read some of the books failed the exam but also the students who read all of the books did.
+
+- to be tested
+- plus: only in exhaustified cases a change of predicate should have an effect (*even ONE* vs. *ANY*)
+
+---
+
+# *ani*: negative even
+
+## *ani* vs. n-words
+
+Previous experiments (with Jakub Dotlačil):
+
+- *ani* is licensed in semantics, not in syntax
+- does not behave like n-word
+- in previous experiments: positive interaction of *ani* and NR
+- typical items (acceptability judgments: contrast between n-words -- *žádný*, ... and *ani*)
+
+\ex. \a. ?Nechci, aby ani jeden student vyletěl.\newline
+  neg-want.1SG COMP neg-even one student failed
+\b. ??Nechci, aby žádný student vyletěl.\newline
+  neg-want.1SG COMP n-word student failed
+
+----
+
+environment/status       NPIs         n-words
+----                     ----         -------
+NR embedded              $\checkmark$   X     
+non NR embedded          X              X
+
+
+---
+
+\begin{center}
+\includegraphics[scale=0.23]{mean-sum.png}
+\captionof{figure}{\textit{ani} vs. n-words}
+\end{center}
+
+----
+
+
+## Part 1
+
+- the same experiment with Iveta Šafratová
+- selected conditions from the part 1:
+
+\ex. Brown rice can preserve essential vitamins but ... it up to three days after cooking.\label{ex-2}
+\a.  Rýže  v ledničce nevydrží \textbf{ani} tři dny. \label{ex-1-a}\hfill (\cond{top})\newline
+'The rice in the fridge doesn't last neg-even three days.'
+\b. Rýže  v ledničce nevydrží \textbf{ani} dva dny.\label{ex-1-b}\hfill (\cond{mid})\newline
+'The rice in the fridge doesn't last neg-even two days.'
+\c. Rýže  v ledničce nevydrží \textbf{ani} jeden den.\hfill (\cond{low})\label{ex-1-c}\newline
+'The rice in the fridge doesn't last neg-even one day.'
+
+
+## Part 2
+
+\ex. Mother would be happy if her son would work for the police. ... sergeant ... a colonel ... a general.\label{ex-3}
+\a. Syn se nakonec nestal (\textbf{ani} rotným)/(\textbf{ani} generálmajorem).\hfill (\cond{neg/neg-top}) \label{ex-3-a}\newline
+'Son at the end didn't become neg-even (sergeant)/(general).'
+\b. Jestli se syn stane \textbf{ani} rotným, bude matka ráda.\hfill{(\cond{CondPos})}\label{ex-2-b}\newline
+'If her son becomes neg-even sergeant, his mother would be happy.'
+
+
+## Descriptive statistics *ani*
+
+\tiny 
+```{r  eval=FALSE}
+> ddply(data_ani, .(Condition), summarise, Means = mean(Answer, na.rm=TRUE))
+  Condition    Means
+1   CondPos 1.632653
+2       Low 4.190476
+3       Mid 3.517007
+4       Neg 3.540816
+5   Neg-Top 2.214286
+6       Top 2.755102
+> ddply(data_ani, .(Condition), summarise, Medians = median(Answer,na.rm=TRUE))
+  Condition Medians
+1   CondPos       1
+2       Low       5
+3       Mid       4
+4       Neg       5
+5   Neg-Top       2
+6       Top       3
+> 
+```
+
+---
+
+## Part 1
+
+\begin{center}
+\includegraphics[scale=0.23]{exp1-ani-part_1-errorbars.pdf}
+\captionof{figure}{Error-bars \textit{ani}, Experiment 1, part 1}
+\end{center}
+
+## Linear mixed model for part 1 (*ani*){.allowframebreaks}
+
+\tiny
+
+```{r  eval=FALSE}
+> m1 <- lmer(as.numeric(Answer) ~ Condition + (1|Subj) + (1|Item), data=data_ani_1)
+> summary(m1)
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: as.numeric(Answer) ~ Condition + (1 | Subj) + (1 | Item)
+   Data: data_ani_1
+
+REML criterion at convergence: 1508
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.9104 -0.7829  0.1487  0.7275  2.3556 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Subj     (Intercept) 0.2906   0.5391  
+ Item     (Intercept) 0.2202   0.4693  
+ Residual             1.5272   1.2358  
+Number of obs: 441, groups:  Subj, 49; Item, 9
+```
+---
+
+\tiny
+
+```{r  eval=FALSE}
+Fixed effects:
+             Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)    3.4901     0.2020  16.7490  17.274 4.17e-12 ***
+Conditionlow   0.7269     0.1445 382.5049   5.031 7.53e-07 ***
+Conditiontop  -0.7346     0.1445 382.5049  -5.084 5.79e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) Cndtnl
+Conditionlw -0.358       
+Conditiontp -0.358  0.500
+>
+```
+
+\normalsize
+
+- reference level condition: \cond{mid} (releveled) -- all fixed again effects significant
+- high preference for weak expressions associating with *ani*
+- middle: shrinking of the domain again?
+
+---
+
+## Part 2
+
+\begin{center}
+\includegraphics[scale=0.23]{exp1-ani-part_2-errorbars.pdf}
+\captionof{figure}{Error-bars \textit{ani}, Experiment 1, part 2}
+\end{center}
+
+---
+
+## Linear model for part 2 (*ani*){.allowframebreaks}
+
+\tiny
+
+```{r  eval=FALSE}
+> m1 <- lmer(as.numeric(Answer) ~ Condition + (1|Subj) + (1|Item), data=data_ani_2)
+> summary(m1)
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: as.numeric(Answer) ~ Condition + (1 | Subj) + (1 | Item)
+   Data: data_ani_2
+
+REML criterion at convergence: 2042.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.0527 -0.6597 -0.1860  0.7913  2.6439 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ Subj     (Intercept) 0.1643   0.4054  
+ Item     (Intercept) 0.1138   0.3373  
+ Residual             1.6856   1.2983  
+Number of obs: 588, groups:  Subj, 49; Item, 32
+```
+
+---
+
+\tiny
+
+```{r  eval=FALSE}
+Fixed effects:
+                 Estimate Std. Error       df t value Pr(>|t|)    
+(Intercept)        2.2084     0.1275  96.5876  17.326  < 2e-16 ***
+ConditionCondPos  -0.5888     0.1377 532.7231  -4.275 2.26e-05 ***
+ConditionNeg       1.2854     0.1367 541.2981   9.404  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) CndtCP
+CondtnCndPs -0.536       
+ConditionNg -0.536  0.499
+> 
+```
+
+\normalsize
+
+- reference level: \cond{Neg-Top}, the other two conditions are significantly different
+- again *ani* prefers to associate with weak elements (Neg > Neg-Top)
+- Strawson-DE is not enough to license it (CondPos)
+
+
+---
+
+\begin{center}
+\includegraphics[scale=0.23]{exp1-ani-part_1-2-errorbars.pdf}
+\captionof{figure}{Error-bars, Experiment 1 \textit{ani}, all conditions}
+\end{center}
+
+---
+
+## Summary *ani*
+
+- *ani* behaves more according to Krifka's theory
+- association nearly only with weak elements (scope over negation)
+- association with strong elements only marginal (\cond{Top}) or un-acceptable (\cond{Neg-Top})
+- direct comparison with *i* hard: *i* in negated sentences is blocked by *ani*
+- theoretical explanation: *ani* cannot scope over exh (?)
+
+---
+
+## Summary *i* + *ani*
+
+1) *i*: positive *even*, associates with strong elements
+	- evidence for scope *even* theories: acceptability of both scalar end association (conditional)
+	- hard to explain in ambiguity approaches: *i* is only the positive *even*
+	- evidence for embedded exhaustification: strong association preferred even in conditionals
+	- evidence for PPI behaviour (limited: weak assoc. in conditionals)
+
+---
+
+2) *ani*: negative *even*, associates with weak elements
+	- evidence for scope theories (limited: marginal ambiguity in negated sentences)
+	- no evidence for embedded exhaustification
+	- evidence for PPI behaviour of covert *even*: strong preference of weak elements
+
+---
+
+## Questions
+
+1) Is Crnič theory really working? (more environments to be tested)
+
+2) If yes, why does it apply to *i* but not to *ani* (negation not exhaustified?)
+
+3) How about additivity? (different scope from scalar presupp.?)
+
+---
+
+## Where to go
+
+1) check Crnič's predictions
+  - correlation between the strength of the exhaustification & possibility of strong *even*
+  - change of linearization!
+
+\ex. time/irrealis(?) Czech if
+\a. Když splníš některé úkoly (=$\exists \vee \forall$), tak projdeš.  
+  when fulfill.2SG.FUT some tasks then succeed.2SG.FUT (no exh.)
+\b. I když uděláš ?všechny úkoly, tak propadneš.  
+  i when fulfill.2SG.FUT all tasks then fail.2SG.FUT
+
+---
+
+- interesting observation: *i* (unlike *ani*) cannot directly modify universal quantifier (only in the *even if* construction):
+
+\ex. \a. Petr přečetl i třetí/??všechny díly PP.  
+  Petr read i third/all volumes LOTR.
+\b. I když přečteš všechny díly PP, nebudeš tolkienovský odborník.  
+  Even when you-read all volumes LOTR, neg-will-become Tolkien expert.
+
+- is it really association with *all*?
+- if not how about original Crnič's examples?
+
+---
+
+2) additivity presupposition
+
+- *i*'s additivity presupp. is much stronger than English (Rullmann 1997, ex.(18)):
+- cannot be NPI-*even* (neither in English)
+
+
+\ex. \a. A: Is Claire an ASSISTANT professor?
+\b. B: No, she’s even an ASSOCIATE professor.
+
+\ex. \a. Klára je doktor?
+\b. ??Ne, one je i docent.  
+  ... plausible only: another academic degree 
+
+---
+
+Crnič's observation: English addititivity presupp. depends on the surface scope
+
+\ex. \a. John is sorry that he even OPENED the book.
+\a. no additive presupp. (read, ...)
+\z.
+\b. John is even sorry that he OPENED the book.
+\a. additive presupp. (John read, ...)
+\z.
+
+---
+
+Czech data: reversed (but the only grammatical case with *když* 'when')
+
+- Czech (similarly to German) usually requires adjacency of focus sensitive particles to FOC
+
+\ex. \a. Petr si přečetl i třetí díl PP. \hfill +additive  
+  Petr read i third volume LOTR.
+\b. I když si přečteš třetí díl PP, tak první dva nečti. \hfill -additive  
+  Even when you read third volume LOTR, then don't read the first two.
+
+\ex. \a. Petr lituje, že přečetl i třetí díl PP.  
+  Petr regrets that read.3SG i third volume LOTR.
+\b. Petr ??i lituje, že přečetl třetí díl PP.
+
+---
+
+3) project with Viola in Vienna
+  - *i* as obligatory? distributive conjunction
+
+\ex. subject vs. object
+\a. Klára i Bára namalovali 3 portéty. \hfill +distr  
+  Klára i Bára painted 3 portraits.
+\b. Petr, Karel a Martin pozvali Kláru i Báru na své narozeniny. \hfill ?distr  
+  Petr, Karel and Martin invited Klara i Bara ...
+\a. Petr -> Klára
+\b. Karel -> Bára
+\c. Martin -> Bára
+\z.
+
+---
+
+- PPI behaviour in all syntactic configurations?
+
+\ex. \a. Petr i Karel nepřišli.  
+  Petr i Karel neg-arrived.  
+  $\neg p \wedge \neg k$
+\b. Na své narozeniny jsem nepozval Petra i Karla.  
+  I didn't invite (for my birthday) Petr i Karel.  
+  ?$\neg(p \wedge k)$
+
+---
+
+\begin{center}
+\Huge Thanks!
+\end{center}
+
+---
+
+## Appendix
+
+
+- note: the environments (conditionals, restriction of plural definites and universal quantifiers) are Strawson-downward entailing:
+
+\ex. \a. If son will become sergeant his mom will be happy.\newline
+$\approx \forall w \in Acc$[son becomes seregant in *w* $\rightarrow$ mom happy in *w*]
+\b. It is possible that son will become mayor or more.
+\c. {w: son become mayor or more in *w*} $\subseteq$ {w: son will become sergeant in *w*}
+\d. $\models$ If son will become general his mom will be happy.\newline
+$\approx \forall w \in Acc$[son becomes general in *w* $\rightarrow$ mom happy in *w*]
+
+---
+
+
+## References{.allowframebreaks}
+
+\scriptsize
