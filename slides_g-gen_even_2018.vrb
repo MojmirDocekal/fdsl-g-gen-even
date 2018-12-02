@@ -1,35 +1,27 @@
+\frametitle{NPI-exp: Linear model for part 2}
 
 \tiny
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{Fixed effects}\OperatorTok{:}
-\StringTok{                 }\NormalTok{Estimate Std. Error       df t value }\KeywordTok{Pr}\NormalTok{(}\OperatorTok{>}\ErrorTok{|}\NormalTok{t}\OperatorTok{|}\NormalTok{)    }
-\NormalTok{(Intercept)        }\FloatTok{2.2084}     \FloatTok{0.1275}  \FloatTok{96.5876}  \FloatTok{17.326}  \OperatorTok{<}\StringTok{ }\FloatTok{2e-16} \OperatorTok{**}\ErrorTok{*}
-\NormalTok{ConditionCondPos  }\FloatTok{-0.5888}     \FloatTok{0.1377} \FloatTok{532.7231}  \FloatTok{-4.275} \FloatTok{2.26e-05} \OperatorTok{**}\ErrorTok{*}
-\NormalTok{ConditionNeg       }\FloatTok{1.2854}     \FloatTok{0.1367} \FloatTok{541.2981}   \FloatTok{9.404}  \OperatorTok{<}\StringTok{ }\FloatTok{2e-16} \OperatorTok{**}\ErrorTok{*}
-\OperatorTok{---}
-\NormalTok{Signif. codes}\OperatorTok{:}\StringTok{  }\DecValTok{0}\NormalTok{ ‘}\OperatorTok{**}\ErrorTok{*}\NormalTok{’ }\FloatTok{0.001}\NormalTok{ ‘}\OperatorTok{**}\NormalTok{’ }\FloatTok{0.01}\NormalTok{ ‘}\OperatorTok{*}\NormalTok{’ }\FloatTok{0.05}\NormalTok{ ‘.’ }\FloatTok{0.1}\NormalTok{ ‘ ’ }\DecValTok{1}
+\OperatorTok{>}\StringTok{ }\NormalTok{m1 <-}\StringTok{ }\KeywordTok{lmer}\NormalTok{(}\KeywordTok{as.numeric}\NormalTok{(Answer) }\OperatorTok{~}\StringTok{ }\NormalTok{Condition }\OperatorTok{+}\StringTok{ }\NormalTok{(}\DecValTok{1}\OperatorTok{|}\NormalTok{Subj) }\OperatorTok{+}\StringTok{ }\NormalTok{(}\DecValTok{1}\OperatorTok{|}\NormalTok{Item), }\DataTypeTok{data=}\NormalTok{data_ani_}\DecValTok{2}\NormalTok{)}
+\OperatorTok{>}\StringTok{ }\KeywordTok{summary}\NormalTok{(m1)}
+\NormalTok{Linear mixed model fit by REML. t}\OperatorTok{-}\NormalTok{tests use Satterthwaite}\StringTok{'s method ['}\NormalTok{lmerModLmerTest}\StringTok{']}
+\StringTok{Formula: as.numeric(Answer) ~ Condition + (1 | Subj) + (1 | Item)}
+\StringTok{   Data: data_ani_2}
 
-\NormalTok{Correlation of Fixed Effects}\OperatorTok{:}
-\StringTok{            }\NormalTok{(Intr) CndtCP}
-\NormalTok{CondtnCndPs }\FloatTok{-0.536}
-\NormalTok{ConditionNg }\FloatTok{-0.536}  \FloatTok{0.499}
-\OperatorTok{>}\StringTok{ }
+\StringTok{REML criterion at convergence: 2042.3}
+
+\StringTok{Scaled residuals: }
+\StringTok{    Min      1Q  Median      3Q     Max }
+\StringTok{-2.0527 -0.6597 -0.1860  0.7913  2.6439 }
+
+\StringTok{Random effects:}
+\StringTok{ Groups   Name        Variance Std.Dev.}
+\StringTok{ Subj     (Intercept) 0.1643   0.4054  }
+\StringTok{ Item     (Intercept) 0.1138   0.3373  }
+\StringTok{ Residual             1.6856   1.2983  }
+\StringTok{Number of obs: 588, groups:  Subj, 49; Item, 32}
 \end{Highlighting}
 \end{Shaded}
-
-\normalsize
-
-\begin{itemize}
-\tightlist
-\item
-  reference level: \textbf{Neg-Top}, the other two conditions are
-  significantly different
-\item
-  again \emph{ani} prefers to associate with weak elements (Neg
-  \textgreater{} Neg-Top)
-\item
-  Strawson-DE is not enough to license it (CondPos)
-\end{itemize}
 
